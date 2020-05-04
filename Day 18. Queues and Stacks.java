@@ -26,6 +26,7 @@ public class Solution {
     public char dequeueCharacter() {
         return myQueue.poll();
     }
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
